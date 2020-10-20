@@ -28,6 +28,8 @@ public Guesser(int low, int high) {
 	this.high = low;
 }
 
+public Guesser() {}
+
 
   /*
    * Task 2. Complete the start() method, so that
@@ -35,8 +37,6 @@ public Guesser(int low, int high) {
    * rules() method, next the doGuesses() method.
    */
   public void start(){
-    // call the rules method here
-    // call the doGuesses() method here
 	rules();
 	doGuesses();
   }
