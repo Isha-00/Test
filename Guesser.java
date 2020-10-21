@@ -25,10 +25,8 @@ public class Guesser{
   // Write the constructor below this line.
 public Guesser(int low, int high) {
 	this.low = low;
-	this.high = low;
+	this.high = high;
 }
-
-public Guesser() {}
 
 
   /*
@@ -60,7 +58,13 @@ public Guesser() {}
    * the player.
    */
   private String getReply(){
-    String reply = null;
+    String reply;
+
+	reply = System.console().readLine();
+	while(!reply.equals("T") && !reply.equals("F")) {
+		System.out.println("Please answer with T or F");
+		 reply = System.console().readLine();
+}
     // Write code here which reads a String from the console.
     // As long as it is not a valid reply (one of "T" and "F")
     // write an error message, and read a new reply.
