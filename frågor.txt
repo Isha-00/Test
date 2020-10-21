@@ -1,0 +1,17 @@
+När använder man add respektive commit?
+	- Man använder add när man vill lägga till något i "staging area". Man
+	  använder commit när man vill dokumentera dessa ändringar och uppdater-
+	  ingar i "repon"
+
+Vad är pull respektive push?
+	- Pull använder man när man vill "dra" innehållet av en "remote repository"
+	  till en "local repository". Push använder man för att uppdatera den lokala
+          repon med ändringar som man har commitat i "remote repon"
+
+När använder man log respektive status?
+	- Man använder log när man vill se en tydlig dokumentation på sina commits.
+	  Status använder man när man vill se om man har något att "adda" eller "comitta"
+
+Hur kan man formulera sig i sina commit-meddelanden?
+	- Man bör formulera sig kortfattat men också tillräckligt bra så att andra
+	  kan förstå exakt vad man har gjort samt skall andra kunna lätt läsa
