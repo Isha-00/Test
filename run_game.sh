@@ -9,7 +9,7 @@ cd Shahid_Ismail_labb
 echo "Running game from $(pwd)"
 echo "compiling..."
 echo "running"
-javac GuessingGame,java
+javac GuessingGame.java
 java GuessingGame
 echo "done"
 rm GuessingGame.class
